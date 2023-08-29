@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Universe Hub</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
+    <header class="py-20">
+        <div class="banner w-96 block mx-auto text-center space-y-6">
+            <div class="">
+                <h1 class="text-5xl font-semibold">AI Universe Hub</h1>
+            </div>
+            <div><button class="btn bg-[#EB5757] capitalize text-white text-xl">Sort By Date</button></div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 m-2 lg:m-6 justify-center justify-items-center align content-center items-center " id="tools-container">
+
+            </div>
+            <div class="flex flex-row justify-center py-8">
+                <button class="btn bg-[#EB5757] capitalize text-white text-xl hidden" id="show-all-btn">Show More</button>
+            </div>
+        </section>
+    </main>
     <script src="./app.js"></script>
 </body>
+
 </html>
